@@ -16,9 +16,6 @@ body {
 
 /* Header */
 
-.bg-body-tertiary{
-    background-color: #dbdbdb;
-}
 
 .background{
     background-color: #dbdbdb;
@@ -82,14 +79,13 @@ nav {
 /* Footer */
 
 .footer{
-    display: flex !important;
+    display: flex;
+    justify-content: end;
 }
-
 
 .logo-footer{
     width: 4%;
     height: 4%;
-    margin-left: auto;
 }
 
 
@@ -98,17 +94,13 @@ nav {
 }
 
 .texto_footer{
+    margin-left: 15%;
     font-family: 'Roboto', sans-serif;
     font-size: 24px;
     text-align: left;
+    display: flex;
 }
 
-
-.logos_footer img{
-    margin-left: 10px;
-    width: 4%;
-    height: 4%;
-}
 
 
 /* body index */
@@ -141,6 +133,13 @@ nav {
     font-size: 60px;
 }
 
+.subtitulo_sobmi{
+    font-family: 'Roboto', sans-serif;
+    margin-top: 30px;
+    margin-bottom: 25px;
+    font-size: 60px;
+}
+
 .parrafo_sobmi{
     margin-top: 50px;
     font-family: 'Roboto', sans-serif;
@@ -153,12 +152,6 @@ nav {
 }
 
 /* body proyectos */
-
-.caja_proyectos{
-    margin-left: 300px;
-    margin-right: 300px;
-    text-align: center;
-}
 
 .subtitulo_proyectos{
     font-family: 'Roboto', sans-serif;
@@ -181,7 +174,6 @@ nav {
 
 .titulo_proyectos{
     font-family: 'Roboto', sans-serif;
-    margin-left: 300px;
     text-align: left;
     margin-top: 100px;
     margin-bottom: 15px;
@@ -217,6 +209,10 @@ nav {
     margin-bottom: 50px;
 }
 
+.img_carrusel{
+    object-fit: fill;
+}
+
 .titulo_numismatica{
     font-family: 'Roboto', sans-serif;
     margin-left: 300px;
@@ -232,14 +228,15 @@ nav {
 }
 
 .img_numismatica{
-    height: 500px;
-    width: 350px;
-    margin-left: 550px;
+    height: 120%;
+    width: 100%;
+    margin-top: 5%;
+    margin-bottom: 5%;
 }
 
 .texto_numismatica{
     font-family: 'Roboto', sans-serif;
-    margin-top: 80px;
+    margin-top: 150px;
     font-size: 22px;
     text-align: left;
     margin-bottom: 50px;
