@@ -82,14 +82,15 @@ nav {
     flex-wrap: nowrap !important;
 }
 
-#footer{
+.footer{
     display:flex; 
     justify-content:end; 
+    margin-right: 15%;
 }
 
 .logo-footer{
-    width: 4%;
-    height: 4%;
+    width: 35px;
+    height: 35px;
 }
 
 
@@ -155,6 +156,10 @@ nav {
     height: 100%;
 }
 
+.last{
+    padding-bottom: 100px;
+}
+
 /* body proyectos */
 
 .subtitulo_proyectos{
@@ -198,6 +203,13 @@ nav {
     margin-bottom: 25px;
 }
 
+.parrafo_videoclips{
+    font-family: 'Roboto', sans-serif;
+    font-size: 22px;
+    text-align: left;
+    margin-bottom: 100px;
+}
+
 /* body fotos */
 
 .titulo_fotos{
@@ -223,17 +235,11 @@ nav {
 
 .titulo_numismatica{
     font-family: 'Roboto', sans-serif;
-    margin-left: 300px;
     text-align: left;
     margin-bottom: 100px;
     font-size: 60px;
 }
 
-.caja_numismatica{
-    margin-left: 300px;
-    margin-right: 300px;
-    text-align: right;
-}
 
 .img_numismatica{
     height: 120%;
@@ -278,6 +284,9 @@ nav {
 
 .formulario_contacto{
     margin-bottom: 100px;
+}
+.text-area-form{
+    height: 100px;
 }
 
 
