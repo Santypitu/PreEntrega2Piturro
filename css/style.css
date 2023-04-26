@@ -39,23 +39,15 @@ body {
     margin-left: auto;
 }
 
+nav a:hover {
+    color: #fff;
+    text-shadow: 0 0 5px #fff;
+  }
+
 .navbar-border{
     border-left: 5px solid;
     border-color: rgb(209, 209, 209);
     padding-left: 20px;
-}
-
-.lista-nav li{
-    font-family: 'Roboto', sans-serif;
-    margin-top: 40px;
-    display: inline-block;
-    margin-left: 20px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 28px;
-    border-left: 5px solid;
-    border-color: rgb(209, 209, 209);
-    padding-left: 20px;
-    color: rgb(75, 75, 75);
 }
 
 .logo-nav {
@@ -72,9 +64,6 @@ nav {
     z-index: 2;
 }
 
-.nav_izquierda{
-    border: none;
-}
 
 /* Footer */
 
@@ -115,18 +104,19 @@ nav {
     margin-top: 80px;
     margin-bottom: 80px;
     font-size: 60px;
-    margin-left: 30px;
 }
 
 .parrafo_index{
+    width: 90%;
+    margin-top: 30px;
     font-family: 'Roboto', sans-serif;
     font-size: 24px;
-    text-align: justify;
+    margin-left: 5%;
 }
 
 .imagen_index{
     width: 100%;
-    height: 130%;
+    height: 100%;
 }
 
 /* body sobre mi */
@@ -204,6 +194,7 @@ nav {
 }
 
 .parrafo_videoclips{
+    margin-top: 30px;
     font-family: 'Roboto', sans-serif;
     font-size: 22px;
     text-align: left;
@@ -231,6 +222,7 @@ nav {
 
 .img_carrusel{
     object-fit: fill;
+    margin-left: 14%;
 }
 
 .titulo_numismatica{
@@ -242,7 +234,7 @@ nav {
 
 
 .img_numismatica{
-    height: 120%;
+    height: 90%;
     width: 100%;
     margin-top: 5%;
     margin-bottom: 5%;
@@ -264,6 +256,7 @@ nav {
 }
 
 .img_contacto{
+    object-fit: cover;
     margin-top: 100px;
     width: 100%;
     height: 250px;
