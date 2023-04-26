@@ -1,0 +1,27 @@
+.container-fluid{
+    flex-wrap: nowrap !important;
+}
+
+.footer{
+    display:flex; 
+    justify-content:end; 
+    margin-right: 15%;
+}
+
+.logo-footer{
+    width: 35px;
+    height: 35px;
+}
+
+
+.background-footer{
+    background-color: rgb(94, 94, 94);
+}
+
+.texto_footer{
+    margin-left: 15%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    text-align: left;
+    display: flex;
+}
